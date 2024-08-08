@@ -3,13 +3,17 @@ import { Row, Col } from 'react-bootstrap'
 import Product from '../components/Product'
 import Loader from '../components/Loader'
 import Message from '../components/Message'
+import ProductCarousel from '../components/ProductCarousel'
 import { useGetProductsQuery } from '../slices/productsApiSlice'
+// import { Link } from 'react-router-dom'
 
 const HomeScreen = () => {
   const {data: products, isLoading, error} = useGetProductsQuery();
 
   return (
     <>
+    {<ProductCarousel/> }
+    
       {isLoading ? (
         <Loader/>
       ) : error ? (

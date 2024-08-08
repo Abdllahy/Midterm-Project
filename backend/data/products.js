@@ -1,6 +1,7 @@
 const products = [
   {
-    name: 'Airpods Wireless Bluetooth Headphones',
+    name: 'Winter Sweat Suit',
+    image: '/images/airpods.jpg',
     image: '/images/airpods.jpg',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
@@ -12,7 +13,7 @@ const products = [
     numReviews: 12,
   },
   {
-    name: 'iPhone 11 Pro 256GB Memory',
+    name: 'cool shirt',
     image: '/images/phone.jpg',
     description:
       'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
@@ -24,7 +25,7 @@ const products = [
     numReviews: 8,
   },
   {
-    name: 'Cannon EOS 80D DSLR Camera',
+    name: 'warm shirt',
     image: '/images/camera.jpg',
     description:
       'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
@@ -36,7 +37,7 @@ const products = [
     numReviews: 12,
   },
   {
-    name: 'Sony Playstation 4 Pro White Version',
+    name: 'warm shirt',
     image: '/images/playstation.jpg',
     description:
       'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',
